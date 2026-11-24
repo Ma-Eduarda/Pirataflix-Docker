@@ -1,0 +1,32 @@
+.lista-section {
+    margin-bottom: 50px;
+}
+
+/* SCROLL HORIZONTAL */
+.scroll-horizontal-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+}
+
+/* HOVER */
+.scroll-horizontal-container .movie-card:hover {
+    transform: scale(1.05);
+    z-index: 20;
+}
+
+
+/* SCROLLBAR */
+.scroll-horizontal-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-horizontal-container::-webkit-scrollbar-thumb {
+    scrollbar-color: #8d2005 #640c0c;
+    border-radius: 10px;
+}
+
+.scroll-horizontal-container {
+    scrollbar-width: thin;
+    scrollbar-color: #531202 #1a1a1a;
+}
