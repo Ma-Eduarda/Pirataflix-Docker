@@ -119,38 +119,54 @@ Para iniciar novamente:
 docker start pirataflix-db pirataflix-backend pirataflix-frontend
 ```
 
-Visualizar o banco de dados
+## Visualizar o banco de dados
 
 O PostgreSQL é executado em um container Docker. Para acessar o banco pelo terminal:
 
+```bash
 docker exec -it pirataflix-db psql -U postgres -d dbPirataFlix
+```
 
-Comandos úteis
+### Comandos úteis
 
 Listar as tabelas:
 
+```bash
 \dt
+```
 
 Visualizar a estrutura de uma tabela:
 
+```bash
 \d filme
+```
 
 Consultar os filmes cadastrados:
 
+```bash
 SELECT * FROM filme;
+```
 
 Consultar os usuários:
 
+```bash
 SELECT id, nome, email FROM usuario;
+```
 
 Consultar os administradores:
 
+```bash
 SELECT id, nome, email FROM adm;
+```
 
 Consultar os gêneros:
 
+```bash
 SELECT * FROM filme_genero;
+```
 
 Para sair do PostgreSQL:
 
+```bash
 \q
+```
