@@ -30,8 +30,8 @@ pirataflix/
 ### 1. Baixar o projeto
 
 ```bash
-git clone LINK_DO_REPOSITORIO
-cd NOME_DA_PASTA
+git clone https://github.com/Ma-Eduarda/PirataFlix-Docker.git
+cd Pirataflix-main
 ```
 
 ### 2. Criar o banco de dados
