@@ -31,7 +31,7 @@ pirataflix/
 
 ```bash
 git clone https://github.com/Ma-Eduarda/PirataFlix-Docker.git
-cd Pirataflix-main
+cd pirataflix-main
 ```
 
 ### 2. Criar o banco de dados
